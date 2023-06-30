@@ -1,0 +1,55 @@
+< THE SYMBOL TABLE >  AREA.exe_  --  emu8086 assembler version: 4.08 
+===================================================================================================
+Name                     	Offset    	Size      	Type      	Segment   
+===================================================================================================
+DATOS                    	00000     	-5        	SEGMENT   	(ITSELF)  
+BASE                     	00000     	1         	VAR       	DATOS     
+ALTURA                   	00001     	1         	VAR       	DATOS     
+RADIO                    	00002     	1         	VAR       	DATOS     
+LADO                     	00003     	1         	VAR       	DATOS     
+AREA                     	00004     	1         	VAR       	DATOS     
+PERIMETRO                	00005     	1         	VAR       	DATOS     
+X                        	00006     	1         	VAR       	DATOS     
+Y                        	00007     	1         	VAR       	DATOS     
+PILA                     	00001     	-5        	SEGMENT   	(ITSELF)  
+CODIGO                   	00005     	-5        	SEGMENT   	(ITSELF)  
+INICIO                   	00000     	-1        	FAR       	CODIGO    
+MENU                     	0000C     	-1        	LABEL     	CODIGO    
+TRIANGULO                	0011B     	-1        	LABEL     	CODIGO    
+CUADRADO                 	002CB     	-1        	LABEL     	CODIGO    
+CIRCULO                  	003D1     	-1        	LABEL     	CODIGO    
+SALIR                    	004FC     	-1        	LABEL     	CODIGO    
+PTHIS                    	004FF     	-1        	NEAR      	          
+NEXT_CHAR_LOC1TMP        	00506     	-1        	LABEL     	          
+PRINTED_LOC1TMP          	00514     	-1        	LABEL     	          
+TEMP1_LOC1TMP            	0051C     	2         	VAR       	          
+SKIP_PROC_PTHIS_LOC1TMP  	0051E     	-1        	LABEL     	          
+SCAN_NUM                 	00521     	-1        	NEAR      	          
+NEXT_DIGIT_LOC2TMP       	0052D     	-1        	LABEL     	          
+NOT_CR_LOC5TMP           	00540     	-1        	LABEL     	          
+BACKSPACE_CHECKED_LOC3TMP	00562     	-1        	LABEL     	          
+OK_AE_0_LOC5TMP          	00568     	-1        	LABEL     	          
+REMOVE_NOT_DIGIT_LOC5TMP 	0056C     	-1        	LABEL     	          
+OK_DIGIT_LOC5TMP         	00586     	-1        	LABEL     	          
+SET_MINUS_LOC2TMP        	005A2     	-1        	LABEL     	          
+TOO_BIG2_LOC3TMP         	005AA     	-1        	LABEL     	          
+TOO_BIG_LOC3TMP          	005AF     	-1        	LABEL     	          
+STOP_INPUT_LOC4TMP       	005D3     	-1        	LABEL     	          
+NOT_MINUS_LOC4TMP        	005DD     	-1        	LABEL     	          
+MAKE_MINUS_LOC2TMP       	005E1     	1         	VAR       	          
+TEN_LOC2TMP              	005E2     	2         	VAR       	          
+SKIP_PROC_SCAN_NUM_LOC4TMP	005E4     	-1        	LABEL     	          
+PRINT_NUM_UNS            	005E6     	-1        	NEAR      	          
+BEGIN_PRINT_LOC6TMP      	005F5     	-1        	LABEL     	          
+CALC_LOC6TMP             	00603     	-1        	LABEL     	          
+SKIP_LOC6TMP             	00617     	-1        	LABEL     	          
+PRINT_ZERO_LOC6TMP       	00627     	-1        	LABEL     	          
+END_PRINT_LOC6TMP        	0062F     	-1        	LABEL     	          
+TEN_LOC6TMP              	00634     	2         	VAR       	          
+SKIP_PROC_PRINT_NUM_UNS_LOC7TMP	00636     	-1        	LABEL     	          
+CLEAR_SCREEN             	00638     	-1        	NEAR      	          
+SKIP_PROC_CLEAR_SCREEN_LOC8TMP	0066A     	-1        	LABEL     	          
+===================================================================================================
+[ 24/06/2023  --  22:54:07 ] 
+< END >
+ 
